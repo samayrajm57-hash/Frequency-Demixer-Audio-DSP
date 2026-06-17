@@ -4,12 +4,12 @@ A digital signal processing (DSP) pipeline built in Python to isolate and remove
 
 By utilizing frequency domain analysis and custom filter design, this project effectively suppresses targeted high-frequency interference to restore the original harmony of the song[cite: 4].
 
-### 🎯 Objective
+### Objective
 To identify unwanted dominant frequencies using Fourier Transforms and Spectrograms, and design precise second-order IIR notch filters to eliminate acoustic interference without distorting the underlying musical structure[cite: 4].
 
 ---
 
-## 🛠️ Methodology & DSP Pipeline
+## Methodology & DSP Pipeline
 
 1. **Audio Normalization:** The input audio is decoded at its native sampling rate (48,000 Hz) to avoid resampling artifacts and normalized within the range `[-1, 1]` to prevent distortion[cite: 4].
 2. **Frequency Domain Analysis:** 
@@ -20,7 +20,7 @@ To identify unwanted dominant frequencies using Fourier Transforms and Spectrogr
 
 ---
 
-## 📊 Results & Validation
+## Results & Validation
 
 *(Note: Add your output images to the `outputs/` folder for these links to work)*
 
@@ -34,7 +34,7 @@ To identify unwanted dominant frequencies using Fourier Transforms and Spectrogr
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 * **Python 3**
 * **Librosa & Soundfile:** Audio decoding, manipulation, and playback[cite: 4].
 * **SciPy (`scipy.signal`):** IIR notch filter design (`iirnotch`), zero-phase filtering (`filtfilt`), and PSD computation (`welch`)[cite: 4].
